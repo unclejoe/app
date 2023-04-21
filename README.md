@@ -91,7 +91,10 @@ make all
 ```shell
 make
 ```
-
+## Screenshots of the homework in 2023-04-21
+![screenshot of the app](./pics/contract_all.png)
+![screenshot of the app](./pics/counts1.png)
+![screenshot of the app](./pics/counts2.png)
 ## License
 
 The source code is licensed under the [MIT license](LICENSE).

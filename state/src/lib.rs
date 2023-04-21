@@ -21,4 +21,12 @@ pub mod metafns {
             .find_map(|(pinger, ping_count)| (pinger == actor).then_some(ping_count))
             .unwrap_or_default()
     }
+
+    pub fn counts(state: State) -> u128 {
+        let mut counts = 0;
+        state
+            .into_iter()
+            .for_each(|(_, count)| counts = counts + count);
+        counts
+    }
 }
